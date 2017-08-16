@@ -23,8 +23,10 @@ dependencies {
     compile 'com.android.support:design:25.1.0'
     compile 'com.android.support:support-annotations:25.1.0'
     compile 'com.google.android.gms:play-services-appindexing:9.8.0'
+    compile 'com.android.support.test.espresso:espresso-idling-resource:2.2.2'
+    //For testing with idling resources
 
-    //Testing=only dependencies
+    //Testing only dependencies
     //support-annotations enables annotations in the project
     androidTestCompile 'com.android.support:support-annotations:25.1.0'
     //espresso-core allows us to use espresso tests
