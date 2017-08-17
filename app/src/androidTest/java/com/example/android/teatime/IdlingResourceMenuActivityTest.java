@@ -75,7 +75,7 @@ public class IdlingResourceMenuActivityTest {
 
 
 
-    
+
     // Remember to unregister resources when not needed to avoid malfunction.
     @After
     public void unregisterIdlingResource() {
